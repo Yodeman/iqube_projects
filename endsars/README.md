@@ -17,3 +17,7 @@ Since the data were unlabeled, I used the python natural language processing too
 ### Conclusion
 
 From the classified sentiments, it can be seen that there are more negative sentiments than positive which means that people really expressed how bitter they were about the actions of SARS, and the positive sentiments arises from tweets where people were praised for the actions taken and also from consolations.
+
+### Challenge
+
+The task asked me to analyze how the sentiments changed over time but I was unable to get data of different time interval as twint only return recent tweets with the **#ENDSARS** movement.
