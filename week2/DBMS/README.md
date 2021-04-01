@@ -12,6 +12,8 @@ Below is the image of database after creating the iqube_learn data base.
 
 ![iqube_learn_db](https://github.com/Yodeman/iqube_projects/blob/main/week2/DBMS/iqube_learn_db.png)
 
+![db_design](https://github.com/Yodeman/iqube_projects/blob/main/week2/DBMS/db_design.png)
+
 My practice on SQL commandas can be seen in the [notebook](https://github.com/Yodeman/iqube_projects/blob/main/week2/DBMS/iqube_sql.ipynb)
 
 **DROP** command is used to delete table(s) from a database
