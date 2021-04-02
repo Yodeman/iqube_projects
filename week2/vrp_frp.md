@@ -4,7 +4,7 @@ The hidden markov model is a model that uses some observed event to infer the li
 
 ### CMU Sphinx
 
-A a toolkit with the capability of converting human sound signals into words or instructions. Sphinx has been used in fields like telephony, desktop assistance etc. It is also used for other languages aside English for instance Arabisc a speech recognizer for Arabic language.
+A a toolkit with the capability of converting human sound signals into words or instructions. Sphinx has been used in fields like telephony, desktop assistance etc. It is also used for other languages aside English for instance `Arabisc` a speech recognizer for Arabic language.
 
 **Myserviceagent** can be improved into giving IoT devices instructions over phone calls by incorporating speech recognition engine that easily translate sound to text into **myserviceagent** architecture.
 
