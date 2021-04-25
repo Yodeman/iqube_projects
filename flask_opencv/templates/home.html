@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Application Home Page</title>
+    </head>
+    <body>
+        <h2>
+            An app that performs edge detection on image(s).
+        </h2>
+        <hr>
+        <h5>you can either enter a url or upload a file.</h5>
+        <form method="POST" action="http://127.0.0.1:5000/edge" enctype="multipart/form-data">
+            <p><label for="url">Image URL: <input type="text" name=url></label></p>
+            <p><label for="image">Upload file: <input type="file" name=file></label></p>
+            <p><button>detect edges</button></p>
+        <!--
+        </form>
+        <p></p>
+        <form method="GET" action="http://127.0.0.1:5000/edge">
+            <button>detect edges</button>
+        </form>
+        -->
+    </body>
+</html>

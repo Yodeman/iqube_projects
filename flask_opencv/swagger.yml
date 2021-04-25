@@ -1,0 +1,38 @@
+swagger: "2.0"
+info:
+  description: My swagger configuration file.
+  version: "1.0.0"
+  title: "Swagger REST Article"
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+paths:
+  /edge:
+    post:
+      operationId: "edge.detect"
+      tags:
+        - "Image"
+      summary: "Perform edge detection on image."
+      description: "Read in an image and perform edge detection on it."
+      parameters:
+        - name: image
+          in: body
+          description: "URL of image or a jsonpickle encoded file on which edge detection is to be performed"
+          required: True
+          schema:
+            type: "object"
+            properties:
+              url:
+                type: "string"
+                description: "link to the image file."
+              file:
+                type: "object"
+                description: "This must be a jsonpickled encoded file."
+      responses:
+        201:
+          description: "Edge detection performed successfully."
+
