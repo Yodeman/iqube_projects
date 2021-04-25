@@ -3,7 +3,7 @@ import connexion
 import cv2
 import os
 
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = ['.jpg', '.png']
 
 app = Flask(__name__, static_url_path='/uploads', static_folder='uploads')
@@ -52,4 +52,4 @@ def detect_edge():
     #return help(request.files)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
