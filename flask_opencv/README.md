@@ -7,7 +7,9 @@ There are two ways to use this API:
 ### via a web interface.
 
 Run `python flask_connexion.py` on your terminal to start the server and then open `http://127.0.0.1:5000/` on your browser.
+
 ![web_interface](https://github.com/Yodeman/iqube_projects/blob/main/flask_opencv/web_interface.png)
+
 ![output](https://github.com/Yodeman/iqube_projects/blob/main/flask_opencv/output.png)
 
 ### API
