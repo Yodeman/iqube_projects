@@ -4,10 +4,10 @@
 
 There are two ways to use this API:
 
-#### via a web interface.
+### via a web interface.
 
 Run `python flask_connexion.py` on your terminal to start the server and then open `http://127.0.0.1:5000/` on your browser.
 
-#### API
+### API
 
-Here, the user sends a POST request to the server. the server expects a json data of the format `{'url':'url_of_image', 'file':'encoded image or {}-if no image file'}`
+Here, the user sends a POST request to the server. Run `python server.py` on the terminal to start the server, request is to be sent to `http://localhost:8000/api/edge` the server expects a json data of the format `{'url':'url_of_image', 'file':'encoded image or {}-if no image file'}`
