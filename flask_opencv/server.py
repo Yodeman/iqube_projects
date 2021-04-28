@@ -26,4 +26,4 @@ def test():
 
     return Response(response=response_pickled, status=200, mimetype="application/json")"""
 
-app.run(host='localhost', port=8000, debug=True)
+app.run(host='localhost', port=8000)
