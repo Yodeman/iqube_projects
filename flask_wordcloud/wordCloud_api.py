@@ -17,7 +17,7 @@ def generate():
         img_uri = json.dumps({"URL":os.path.join(os.getcwd(), fname)})
         return Response(response=img_uri, status=200, mimetype="application/json")
 
-    return Response(response="", status=200, mimetype="application/json")
+    return Response(response="", status=400, mimetype="application/json")
 
 if __name__ == "__main__":
     app.run(host="localhost", port=8052, debug=True)
