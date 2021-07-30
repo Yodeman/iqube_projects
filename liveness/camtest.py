@@ -43,9 +43,11 @@ def verify(name, img, dbase, model):
     encoding = img_to_encoding(img, model)
 
     #compute distance between detected image and real image
-    diff = encoding - dbase[name]
-    dist = np.linalg.norm(diff.detach().numpy())
-    print(dist)
+    try:
+        diff = encoding - dbase[name]
+        dist = np.linalg.norm(diff.detach().numpy())
+    except KeyError:
+        return "Not Found In Database", (0, 0, 255)
 
     if dist < 0.2:
         return "real", (0, 255, 255)
