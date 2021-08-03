@@ -1,0 +1,4 @@
+flask==1.1.2
+boto3==1.11.5
+wordcloud==1.8.1
+gunicorn==20.1.0
