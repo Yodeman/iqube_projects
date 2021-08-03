@@ -29,3 +29,7 @@ response = requests.post(endpoint, data=data, headers=headers)
 response = json.loads(response.text)["URL"]
 print(f"Image URL: {response}")
 ```
+Below is the returned link to the S3 bucket where the generated image resides.
+![response](https://user-images.githubusercontent.com/59335237/127952230-e089fcf6-4c2f-4c6a-805f-ac8af61b432a.jpg)
+
+## An empty string means the image wasn't generated or the user sent an empty text.
