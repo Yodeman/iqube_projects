@@ -23,7 +23,7 @@ jumia.tail(n=10)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -124,9 +124,9 @@ plt.title("Categories of items shown on homepage.");
 ```
 
 
-    
+​    
 ![png](output_2_0.png)
-    
+​    
 
 
 ## The number of items shown on homepage are same
@@ -153,7 +153,7 @@ jumia.tail(n=10)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -254,35 +254,9 @@ plt.title("Distribution of discounts of items");
 ```
 
 
-    
+​    
 ![png](output_6_0.png)
-    
-
-
-
-```python
-labels = ['G1', 'G2', 'G3', 'G4', 'G5']
-n = [20, 35, 30, 35, 27]
-j = [25, 32, 0, 0, 0]
-fig, ax = plt.subplots()
-ax.bar(labels, n, label="Men")
-ax.bar(labels, j, bottom=n, label="women")
-ax.legend()
-```
-
-
-
-
-    <matplotlib.legend.Legend at 0x241e26b0ac8>
-
-
-
-
-    
-![png](output_7_1.png)
-    
-
-
+​    
 
 ```python
 category_names = cat.index
@@ -316,20 +290,6 @@ category_names
 
 
 ```python
-j = jumia[jumia["category"]=='Toys & Games']
-#j
-len(j[j["discount"]=="29%"])
-```
-
-
-
-
-    2
-
-
-
-
-```python
 labels = cat.index
 l = [f"D{i}" for i in range(1,len(discount.index)+1)]
 fig, ax = plt.subplots(figsize=(20,10))
@@ -344,9 +304,9 @@ ax.set_title("Items category and discounts.", fontsize=15);
 ```
 
 
-    
+​    
 ![png](output_11_0.png)
-    
+​    
 
 
 
