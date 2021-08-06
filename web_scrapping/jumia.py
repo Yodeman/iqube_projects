@@ -2,6 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 
 def main(link, fname):
+    """
+    Parameters:
+        link: The link to jumia website.
+        fname: The filename of the file to be written to disk.
+    """
     res = requests.get(link)
     page_source = BeautifulSoup(res.text)
     categories = page_source.find_all("div", attrs={"class":"col16 -pvs"})
