@@ -1,9 +1,9 @@
 
 # CARTOON API
 <p float="left">
-    <img src="./sample3.png" width="320" height="300">
-    <img src="./sample2.png" width="320" height="300">
-    <img src="./sample1.png" width="320" height="300">
+    <img src="./sample3.png" width="320" height="250">
+    <img src="./sample2.png" width="320" height="250">
+    <img src="./sample1.png" width="320" height="250">
 </p>
 
 This API takes images from user and turns the uploaded image to cartoon.
