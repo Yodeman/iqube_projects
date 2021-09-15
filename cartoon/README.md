@@ -1,8 +1,8 @@
 
 # CARTOON API
-![original](./sample3.png)
-![color](./sample2.png)
+![original](./sample3.png) ![color](./sample2.png)
 ![gray](./sample1.png)
+
 This API takes images from user and turns the uploaded image to cartoon.
 The two supported endpoints are:
 - **color**
