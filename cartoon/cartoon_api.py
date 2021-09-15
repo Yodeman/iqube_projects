@@ -5,14 +5,14 @@ from cloudinary.uploader import upload
 from datetime import datetime
 from PIL import Image
 from flask import Flask, request, Response, json
-from app.cartoonizer import cartoonize, gray_cartoon
+from acartoonizer import cartoonize, gray_cartoon
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 10*1024*1024
 cloudinary.config(
-    cloud_name="anonymouspo",
-    api_key = "448685946715782",
-    api_secret = "Qs7buIA0kvqsg7fh8XJyG4E3RU8",
+    cloud_name="xxxxxxxxxxx",
+    api_key = "xxxxxxxxxxxxx",
+    api_secret = "xxxxxxxxxxxxx",
     secure=True,
 )
 
