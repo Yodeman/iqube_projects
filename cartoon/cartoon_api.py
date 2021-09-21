@@ -5,7 +5,7 @@ from cloudinary.uploader import upload
 from datetime import datetime
 from PIL import Image
 from flask import Flask, request, Response, json
-from acartoonizer import cartoonize, gray_cartoon
+from cartoonizer import cartoonize, gray_cartoon
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 10*1024*1024
